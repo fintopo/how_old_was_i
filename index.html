@@ -1,0 +1,56 @@
+<!doctype html>
+<html>
+  <head>
+    <meta http-equiv="Content-type" content="text/html; charset=utf-8">
+    <title>親が、今の私の年齢だった時、私は何歳でしたか？</title>
+    <script src="http://ajax.googleapis.com/ajax/libs/jquery/1.11.1/jquery.min.js" type="text/javascript"></script>
+		<link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/css/bootstrap.min.css">
+		<script src="https://maxcdn.bootstrapcdn.com/bootstrap/3.3.1/js/bootstrap.min.js"></script>
+		<link rel="stylesheet" href="main.css">
+    <script src="snbinder.js" type="text/javascript"></script>
+    <script src="moment-with-locales.min.js" type="text/javascript"></script>
+    <script src="jquery.cookie.js" type="text/javascript"></script>
+    <script src="how_old_was_i.js" type="text/javascript"></script>
+  </head>
+  <body>
+		<div class="container">
+			<div id="main">
+				<h2 class="text-center" style="margin-top: 50px; margin-bottom: 30px;">親が、今の私の年齢だった時、私は何歳でしたか？</h2>
+				<p class="text-center js_today" style="margin: 20px 0px; font-size: large;"></p>
+				<div class="row">
+					<div class="form-group col-sm-4 col-sm-offset-2">
+						<label>私の誕生日</label>
+						<input type="date" class="jsinput_my_birthday form-control">
+					</div>
+					<div class="form-group col-sm-6">
+						<label>私の年齢</label>
+						<div class="age">
+							<p class="js_my_age"></p>
+						</div>
+					</div>
+				</div>
+				<div class="row">
+					<div class="form-group col-sm-4 col-sm-offset-2">
+						<label>親の誕生日</label>
+						<input type="date" class="jsinput_parent_birthday form-control">
+					</div>
+					<div class="form-group col-sm-6">
+						<label>親の年齢</label>
+						<div class="age">
+							<p class="js_parent_age"></p>
+						</div>
+					</div>
+				</div>
+				<div style="margin: 30px 0px;">
+					<button class="btn btn-default btn-block btn-lg">計算する</button>
+				</div>
+				<div class="text-center" style="margin: 30px 0px; font-size: x-large;">
+					<p class="js_how_old_was_i"></p>
+				</div>
+			</div>
+			<div id="foot">
+				Produced by <a href="http://www.fintopo.jp/">fintopo</a>
+			</div>
+		</div>
+  </body>
+</html>
