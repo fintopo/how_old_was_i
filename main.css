@@ -1,4 +1,4 @@
-body {
+﻿body {
 	font-family: 'ヒラギノ角ゴ Pro W3','Hiragino Kaku Gothic Pro','メイリオ','Meiryo','ＭＳ Ｐゴシック',sans-serif;
 }
 
@@ -13,7 +13,6 @@ textarea {
   border-top: 1px solid #ddd;
 	margin: 5px 0px;
 	padding: 5px 10px;
-	text-align: right;
 }
 
 /* */

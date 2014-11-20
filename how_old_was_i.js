@@ -41,6 +41,12 @@ $(function() {
       calcParentAge();
       calcHowOldWasI();
     });
+    //
+    $('.jsbtn_calc').click(function(){
+      calcMyAge();
+      calcParentAge();
+      calcHowOldWasI();
+    });
     // 初期値を設定する
     var age = $.cookie('jsinput_my_birthday');
     if (age) {
